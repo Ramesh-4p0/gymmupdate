@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+<link rel="stylesheet" href="style2.css">
+
+
+
+
+
+
+
+
+
+<body>
+    <header class="head">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="pictures/logo.png" alt="">
+            <div>Never Give Up</div>
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="aboutUs.html" class="active">About Us</a></li>
+                <li><a href="fitnesscalc.html" class="active">Fitness Calculator</a></li>
+                <li><a href="contactus.html" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Fitness calculator</h1>
+        <form action="noaction.php">
+            <div>
+                <div class='ac b'>Fat Percentage Calculator</div>
+                <div>
+                    <form name=fp>
+                        <table>
+                            <col class=w60>
+                            <col class=w60>
+                            <tr>
+                                <td>Measuring System
+                                <td>
+                                    <select>
+                                        <option value=metric>Metric (Kgs, Cms)
+                                        <option value=us>US (lbs, inches)
+
+                                    </select>
+                            <tr>
+                                <td>Sex
+                                <td><select>
+                                        <option value=m>Male
+                                        <option value=f>Female
+                                    </select>
+                            <tr>
+                                <td>Height <span>(Cms)</span>
+                                <td><input>
+                            <tr>
+                                <td>Neck Girth<span> (Cms)</span>
+                                <td>
+                                    <input>
+                            <tr>
+                                <td>Waist <span>(Cms)</span>
+                                <td>
+                                    <input>
+                            <tr>
+                                <td>Hips <span>(Cms)</span>
+                                <td>
+                                    <input id=hips>
+                            <tr>
+                                <td><button class="btn" type=reset>Reset</button>
+                                <td>
+                                    <button class="btn" type=submit>Submit</button>
+                            <tr>
+                                <td>Your Body Fat
+                                <td><input>
+                            <tr>
+                                <td>Body Fat Category
+                                <td>
+                                    <input>
+                            <tr>
+
+                        </table>
+                        <h3>Calculations are as per US Navy Formula</h3>
+                    </form>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
+
+</html>
