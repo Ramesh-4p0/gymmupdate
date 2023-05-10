@@ -252,7 +252,7 @@ body {
     
     .btn {
         font-family: 'Baloo Bhai', cursive;
-        /* margin: 16px 9px; */
+        margin: 8px 9px; 
         color: white;
         background-color: orange;
         /* padding: 0px 11px; */
@@ -262,7 +262,7 @@ body {
         cursor: pointer;
         /* flex-wrap: nowrap; */
         justify-content: center;
-        height: 8vh;
+    
     }
     .active{
         display: flex;
