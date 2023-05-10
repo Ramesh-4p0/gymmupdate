@@ -9,6 +9,7 @@ body {
     background: cornflowerblue;
     background-repeat: no-repeat;
     background-image: url(pictures/back.jpg);
+    background-size: 812px 1261px;
     width: 100vw;
     height: 100vh;
    
@@ -94,16 +95,16 @@ body {
 
 .btn {
     font-family: 'Baloo Bhai', cursive;
-    /* margin: 53px 17px; */
+    margin: 30px 17px;
     color: white;
     background-color: orange;
     /* padding: 0px 5px; */
     /* border: 2px solid purple; */
     border-radius: 10px;
     display: flex;
-    justify-content: center;
     cursor: pointer;
     /* flex-wrap: nowrap; */
+    height: 5vh;
 }
 .active{
     display: flex;
@@ -156,7 +157,7 @@ body {
        
         background-repeat: no-repeat;
         background-image: url(pictures/back.jpg);
-        background-size: 858px 934px;
+        background-size: 812px 1261px;
 
         width: 100vw;
         height: 100vh;
@@ -262,6 +263,7 @@ body {
         cursor: pointer;
         /* flex-wrap: nowrap; */
         justify-content: center;
+        height: 8vh;
     }
     .active{
         display: flex;
