@@ -6,8 +6,8 @@ body {
     padding: 0px;
     background-repeat: no-repeat;
     background-image: url(pictures/back.jpg);
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
    
 
     
@@ -53,8 +53,10 @@ body {
     right: 34px;
     top: 43px; */
     display: flex;
+    margin: 11px -65px;
+    padding: 10px 0px;
    
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
   
 }
 
@@ -89,15 +91,15 @@ body {
 
 .btn {
     font-family: 'Baloo Bhai', cursive;
-    margin: 53px 17px;
+    /* margin: 53px 17px; */
     color: white;
     background-color: orange;
-    padding: 0px 5px;
+    /* padding: 0px 5px; */
     /* border: 2px solid purple; */
     border-radius: 10px;
     display: flex;
     cursor: pointer;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
 }
 .active{
     display: flex;
@@ -210,7 +212,9 @@ body {
         /* border: 2px solid deeppink; */
         flex-wrap: nowrap;
         margin: 11px -65px;
-        padding: 3px 0px;
+        padding: 10px 0px;
+        /* margin: 11px -65px;
+        padding: 3px 0px; */
     }
     
     .navbar {
@@ -250,7 +254,7 @@ body {
         margin: 16px 9px;
         color: white;
         background-color: orange;
-        padding: 0px 11px;
+        /* padding: 0px 11px; */
         /* border: 2px solid purple; */
         border-radius: 10px;
         display: flex;
