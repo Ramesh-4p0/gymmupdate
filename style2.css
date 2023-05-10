@@ -6,6 +6,7 @@ body {
     padding: 0px;
     background-repeat: no-repeat;
     background-image: url(pictures/back.jpg);
+    background-size: 812px 1261px;
     width: 100vw;
     height: 100vh;
    
@@ -56,7 +57,7 @@ body {
     margin: 11px -65px;
     padding: 10px 0px;
    
-    /* flex-wrap: nowrap; */
+    flex-wrap: nowrap;
   
 }
 
@@ -91,7 +92,7 @@ body {
 
 .btn {
     font-family: 'Baloo Bhai', cursive;
-    /* margin: 53px 17px; */
+    margin: 30px 17px;
     color: white;
     background-color: orange;
     /* padding: 0px 5px; */
@@ -100,6 +101,7 @@ body {
     display: flex;
     cursor: pointer;
     /* flex-wrap: nowrap; */
+    height: 5vh;
 }
 .active{
     display: flex;
@@ -209,12 +211,10 @@ body {
         right: 34px;
         top: 43px; */
         display: flex;
-        /* border: 2px solid deeppink; */
+        
         flex-wrap: nowrap;
         margin: 11px -65px;
         padding: 10px 0px;
-        /* margin: 11px -65px;
-        padding: 3px 0px; */
     }
     
     .navbar {
@@ -251,15 +251,16 @@ body {
     
     .btn {
         font-family: 'Baloo Bhai', cursive;
-        margin: 16px 9px;
+        margin: 30px 17px;
         color: white;
         background-color: orange;
-        /* padding: 0px 11px; */
+        /* padding: 0px 5px; */
         /* border: 2px solid purple; */
         border-radius: 10px;
         display: flex;
         cursor: pointer;
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
+        height: 8vh;
     }
     .active{
         display: flex;
