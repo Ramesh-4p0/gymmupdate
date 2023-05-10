@@ -6,10 +6,9 @@ body {
     color: white;
     margin: 0px;
     padding: 0px;
-    background: cornflowerblue;
     background-repeat: no-repeat;
     background-image: url(pictures/back.jpg);
-  
+
     width: 100vw;
     height: 100vh;
    
