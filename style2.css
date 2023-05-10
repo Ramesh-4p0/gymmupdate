@@ -1,4 +1,4 @@
-@media (min-width:745px) {
+@media (min-width:650px) {
 body {
     font-family: 'Baloo Bhai', cursive;
     color: white;
@@ -6,7 +6,7 @@ body {
     padding: 0px;
     background-repeat: no-repeat;
     background-image: url(pictures/back.jpg);
-    background-size: 812px 1261px;
+    background-size:0px 4000px;
     width: 100vw;
     height: 100vh;
    
