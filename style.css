@@ -118,7 +118,7 @@ body {
     align-items: center;
     cursor: pointer;
     /* flex-wrap: nowrap; */
-    height: 13vh;
+    height: 14vh;
 }
 .active{
     display: flex;
