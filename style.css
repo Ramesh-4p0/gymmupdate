@@ -104,6 +104,7 @@ body {
     align-items: center;
     cursor: pointer;
     /* flex-wrap: nowrap; */
+   height:14px
    
 }
 .active{
