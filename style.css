@@ -106,6 +106,20 @@ body {
     /* flex-wrap: nowrap; */
     height: 22vh;
 }
+    .btn1 {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 30px 17px;
+    color: white;
+    background-color: orange;
+    /* padding: 0px 5px; */
+    /* border: 2px solid purple; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* flex-wrap: nowrap; */
+    height: 13vh;
+}
 .active{
     display: flex;
     justify-content: center;
@@ -252,6 +266,20 @@ body {
     }
     
     .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 8px 9px; 
+        color: white;
+        background-color: orange;
+        /* padding: 0px 11px; */
+        /* border: 2px solid purple; */
+        border-radius: 10px;
+        display: flex;
+        cursor: pointer;
+        /* flex-wrap: nowrap; */
+        justify-content: center;
+        
+    }
+     .btn1 {
         font-family: 'Baloo Bhai', cursive;
         margin: 8px 9px; 
         color: white;
