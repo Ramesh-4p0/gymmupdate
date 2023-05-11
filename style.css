@@ -57,7 +57,7 @@ body {
     top: 43px; */
     display: flex;
     margin: 11px -65px;
-    padding: 10px 0px;
+    padding: 0px 0px;
    
     flex-wrap: nowrap;
   
@@ -101,6 +101,7 @@ body {
     /* border: 2px solid purple; */
     border-radius: 10px;
     display: flex;
+    align-items: center;
     cursor: pointer;
     /* flex-wrap: nowrap; */
     height: 5vh;
@@ -213,8 +214,8 @@ body {
         flex-wrap: nowrap;
         /* margin: 11px -65px; */
         /* padding: 3px 0px; */
-        margin: 11px -65px;
-        padding: 10px 0px;
+        margin: 30px -65px;
+        padding: 0 0;
         justify-content: center;
     }
     
