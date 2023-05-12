@@ -101,7 +101,7 @@ body {
     display: flex;
     cursor: pointer;
     /* flex-wrap: nowrap; */
-    height: 22vh;
+    height: 5vh;
 }
 .active{
     display: flex;
